@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Blanje</title>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" href="css/blanje.css">
+</head>
+
+<body>
+
+	<div id="background">
+	</div>
+
+	<div id="mobile-navbar">
+		<a href="#" onclick="return false;">
+			<i class="material-icons">menu</i>
+		</a>
+	</div>
+	<div id="mobile-menu">
+		<ul>
+			<a href="#pocetna" id="go-pocetna-mobile">
+				<li><i class="material-icons">home</i>Početna</li>
+			</a>
+			<a href="#vijesti" id="go-vijesti-mobile">
+				<li><i class="material-icons">public</i>Vijesti</li>
+			</a>
+			<a href="#galerija" id="go-galerija-mobile">
+				<li><i class="material-icons">photo</i>Galerija</li>
+			</a>
+			<a href="#o-nama" id="go-o-nama-mobile">
+				<li><i class="material-icons">people</i>O nama</li>
+			</a>
+			<a href="#kontakt" id="go-kontakt-mobile">
+				<li><i class="material-icons">phone</i>Kontakt</li>
+			</a>
+		</ul>
+	</div>
+
+	<div id="pre-header">
+	</div>
+
+	<div class="wrapper-top" id="wrapper-header">
+		<div id="header">
+			<h1>Blanje</h1>
+		</div>
+		<div id="navbar">
+			<ul id="menu">
+				<li><i class="material-icons">home</i><a href="#pocetna" id="go-pocetna">Početna</a></li>
+				<li><i class="material-icons">public</i><a href="#vijesti" id="go-vijesti">Vijesti</a></li>
+				<li><i class="material-icons">photo</i><a href="#galerija" id="go-galerija">Galerija</a></li>
+				<li><i class="material-icons">people</i><a href="#o-nama" id="go-o-nama">O nama</a></li>
+				<li><i class="material-icons">phone</i><a href="#kontakt" id="go-kontakt">Kontakt</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="post-header">
+	</div>
+
+	<div class="wrapper-mid" id="pocetna">
+		<div id="image-slider">
+			<a href="#" onclick="return false;"><i class="material-icons" id="prev-slide">chevron_left</i></a>
+			<a href="#" onclick="return false;"><i class="material-icons" id="next-slide">chevron_right</i></a>
+			<img class="image-cover" id="slide1" src="images/blanje1.jpg">
+			<img class="image-cover" id="slide2" src="images/blanje2.jpg">
+			<img class="image-cover" id="slide3" src="images/blanje3.jpg">
+		</div>
+		<div id="info">
+			<div class="wrapper-info">
+				<div class="icons">
+					<i class="material-icons">cake</i>
+				</div>
+				<div class="hours">
+					<h2>Organiziranje</h2>
+					<p>Proslava</p>
+				</div>
+			</div>
+			<div class="wrapper-info">
+				<div class="icons">
+					<i class="material-icons">hotel</i>
+				</div>
+				<div class="hours">
+					<h2>Najam</h2>
+					<p>Prostora i apartmana</p>
+				</div>
+			</div>
+			<div class="wrapper-info">
+				<div class="icons">
+					<i class="material-icons">restaurant</i>
+				</div>
+				<div class="hours">
+					<h2>Domaće</h2>
+					<p>Delicije</p>
+				</div>
+			</div>
+		</div>
+		<div id="welcome">
+			<h2>Dobrodošli u Blanje</h2>
+			<div id="welcome-message">
+				<p>Spoj netaknute prirode i seoske idile. Ukoliko ste zasićeni gradskim životom, dođite u prirodu i opustite se na Izletištu
+					Blanje gdje će vas dočekati ljubazni vlasnici, ugodna i prijateljska atmosfera te prekrasna priroda.</p>
+				<p>Dvorište popločeno pečenom opekom, duga, prostrana i skladna slavonska kuća sa trijemom, autohtoni stoljetni namještaj,
+					restoran s domaćom hranom i jelima s roštilja, apartman. Počastite svoje okusne pupoljke vrhunskom slavonskom hranom.
+					Dođite i uživajte s nama!
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrapper-mid" id="vijesti">
+		<h2>Vijesti</h2>
+		<div class="container-news">
+			<div class="container-news-image">
+				<img class="image-cover" src="images/vijesti01.jpg">
+			</div>
+			<div class="container-news-text">
+				<h3>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque
+					nihil impedit quo facilis est et expedita distinctio minus id quod maxime placeat facere possimus.</h3>
+				<p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima
+					rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+					totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
+				<p>Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+					architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+					sed quia consequuntur magni. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+				</p>
+			</div>
+		</div>
+		<div class="container-news">
+			<div class="container-news-image">
+				<img class="image-cover" src="images/vijesti02.jpg">
+			</div>
+			<div class="container-news-text">
+				<h3>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque
+					nihil impedit quo facilis est et expedita distinctio minus id quod maxime placeat facere possimus.</h3>
+				<p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima
+					rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+					totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
+				<p>Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+					architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+					sed quia consequuntur magni. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+				</p>
+			</div>
+		</div>
+		<div class="container-news">
+			<div class="container-news-image">
+				<img class="image-cover" src="images/vijesti03.jpg">
+			</div>
+			<div class="container-news-text">
+				<h3>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque
+					nihil impedit quo facilis est et expedita distinctio minus id quod maxime placeat facere possimus.</h3>
+				<p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima
+					rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+					totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
+				<p>Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+					architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+					sed quia consequuntur magni. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrapper-mid" id="galerija">
+		<h2>Galerija</h2>
+		<div class="container-gallery">
+			<div id="gallery-cover">
+				<a href="#" onclick="return false;"><i class="material-icons" id="prev-picture">chevron_left</i></a>
+				<a href="#" onclick="return false;"><i class="material-icons" id="next-picture">chevron_right</i></a>
+				<a href="#" onclick="return false;"><i class="material-icons" id="exit-picture">clear</i></a>
+
+				<div id="high-res-pictures">
+
+				</div>
+			</div>
+			<h3>Općenito</h3>
+			<div class="container-gallery-images" id="page1">
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture1.jpg" class="image-cover" id="1"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture2.jpg" class="image-cover" id="2"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture3.jpg" class="image-cover" id="3"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture4.jpg" class="image-cover" id="4"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture5.jpg" class="image-cover" id="5"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture6.jpg" class="image-cover" id="6"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture7.jpg" class="image-cover" id="7"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture8.jpg" class="image-cover" id="8"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture9.jpg" class="image-cover" id="9"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture10.jpg" class="image-cover" id="10"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture11.jpg" class="image-cover" id="11"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture12.jpg" class="image-cover" id="12"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture13.jpg" class="image-cover" id="13"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture14.jpg" class="image-cover" id="14"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture15.jpg" class="image-cover" id="15"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture16.jpg" class="image-cover" id="16"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture17.jpg" class="image-cover" id="17"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture18.jpg" class="image-cover" id="18"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture19.jpg" class="image-cover" id="19"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture20.jpg" class="image-cover" id="20"></a>
+				</div>
+			</div>
+			<div class="container-gallery-images" id="page2">
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture21.jpg" class="image-cover" id="21"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture22.jpg" class="image-cover" id="22"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture23.jpg" class="image-cover" id="23"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture24.jpg" class="image-cover" id="24"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture25.jpg" class="image-cover" id="25"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture26.jpg" class="image-cover" id="26"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture27.jpg" class="image-cover" id="27"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture28.jpg" class="image-cover" id="28"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture29.jpg" class="image-cover" id="29"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture30.jpg" class="image-cover" id="30"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture31.jpg" class="image-cover" id="31"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture32.jpg" class="image-cover" id="32"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture33.jpg" class="image-cover" id="33"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture34.jpg" class="image-cover" id="34"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture35.jpg" class="image-cover" id="35"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture36.jpg" class="image-cover" id="36"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture37.jpg" class="image-cover" id="37"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture38.jpg" class="image-cover" id="38"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture39.jpg" class="image-cover" id="39"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture40.jpg" class="image-cover" id="40"></a>
+				</div>
+			</div>
+			<div class="container-gallery-images" id="page3">
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture41.jpg" class="image-cover" id="41"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture42.jpg" class="image-cover" id="42"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture43.jpg" class="image-cover" id="43"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture44.jpg" class="image-cover" id="44"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture45.jpg" class="image-cover" id="45"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture46.jpg" class="image-cover" id="46"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture47.jpg" class="image-cover" id="47"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture48.jpg" class="image-cover" id="48"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture49.jpg" class="image-cover" id="49"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture50.jpg" class="image-cover" id="50"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture51.jpg" class="image-cover" id="51"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture52.jpg" class="image-cover" id="52"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture53.jpg" class="image-cover" id="53"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture54.jpg" class="image-cover" id="54"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture55.jpg" class="image-cover" id="55"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture56.jpg" class="image-cover" id="56"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture57.jpg" class="image-cover" id="57"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture58.jpg" class="image-cover" id="58"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture59.jpg" class="image-cover" id="59"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture60.jpg" class="image-cover" id="60"></a>
+				</div>
+			</div>
+			<div class="container-gallery-images" id="page4">
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture61.jpg" class="image-cover" id="61"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture62.jpg" class="image-cover" id="62"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture63.jpg" class="image-cover" id="63"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture64.jpg" class="image-cover" id="64"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture65.jpg" class="image-cover" id="65"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture66.jpg" class="image-cover" id="66"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture67.jpg" class="image-cover" id="67"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture68.jpg" class="image-cover" id="68"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture69.jpg" class="image-cover" id="69"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture70.jpg" class="image-cover" id="70"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture71.jpg" class="image-cover" id="71"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture72.jpg" class="image-cover" id="72"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture73.jpg" class="image-cover" id="73"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture74.jpg" class="image-cover" id="74"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture75.jpg" class="image-cover" id="75"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture76.jpg" class="image-cover" id="76"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture77.jpg" class="image-cover" id="77"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture78.jpg" class="image-cover" id="78"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture79.jpg" class="image-cover" id="79"></a>
+				</div>
+				<div class="container-image">
+					<a href="#" onclick="return false;"><img src="images/picture80.jpg" class="image-cover" id="80"></a>
+				</div>
+			</div>
+			<div class="container-gallery-navigation">
+				<a href="#" onclick="return false;" id="prev-page">
+					<h3>Stranica</h3>
+				</a>
+				<a href="#" onclick="return false;" id="next-page">
+					<h3>Stranica 2</h3>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrapper-mid" id="o-nama">
+		<div id="o-nama-top">
+			<div id="o-blanju">
+				<h2>O Blanju</h2>
+				<p>Nedaleko Donjeg Miholjca, na prostranoj Slavonskoj ravnici smjestilo se maleno selo "Etno Blanje". Etno Blanje, izvan
+					sadašnjeg vremena i prostora, vraća nas precima i prirodi, i budi u nama divljenje prema jednostavnosti nekadašnjeg
+					načina života. Ovdje se odmaraju oči i duša, čovjek postaje plemenitiji, ali i mudriji gledajući u jezero i životinje
+					na prostranoj livadi. Etno Blanje čine dvorište popločeno pečenom opekom, duga, prostrana i skladna slavonska kuća s
+					trijemom, autohtoni stoljetni namještaj, restoran s domaćom hranom i jelima s ražnja i roštilja, apartman za odmor,
+					sportski tereni, poribljeno jezero za pecanje, sjenice za uživanje s društvom, te livada s domaćim životinjama.
+				</p>
+				<p>Etno Blanje u zadnje vrijeme postalo je nezaobilazna destinacija za domaće i strane turiste koji uživaju u bogatoj gastronomskoj
+					ponudi. U sklopu restorana se nalazi i etnomuzej s više od 1000 prikupljenih starinskih primjeraka i apartman s 5 ležajeva
+					u kategoriji 4 zvijezdice. Prirodno jezerce koje je prepuno različite ribe, svakodnevno privlači brojne ribolovce iz
+					bliže i dalje okoline.
+				</p>
+			</div>
+		</div>
+		<div id="o-nama-video">
+			<div id="video">
+				<iframe frameborder="0" width="1080" height="315" src="https://www.dailymotion.com/embed/video/x312nd7" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div id="o-nama-bot">
+			<div id="tko-smo">
+				<h2>Tko smo</h2>
+				<div id="container-ljudi">
+					<div class="ljudi">
+						<div class="picture">
+							<img class="image-cover" src="images/people-placeholder01.jpg">
+						</div>
+						<div class="ljudi-info">
+							<h3>Ivan Pernar</h3>
+							<p>Vlasnik</p>
+						</div>
+					</div>
+					<div class="ljudi">
+						<div class="picture">
+							<img class="image-cover" src="images/people-placeholder01.jpg">
+						</div>
+						<div class="ljudi-info">
+							<h3>Dino Mataija</h3>
+							<p>CEO</p>
+						</div>
+					</div>
+					<div class="ljudi">
+						<div class="picture">
+							<img class="image-cover" src="images/people-placeholder02.jpg">
+						</div>
+						<div class="ljudi-info">
+							<h3>Boris Muminović</h3>
+							<p>Project Manager</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrapper-bot" id="kontakt">
+		<div id="container-bot">
+			<div id="container-bot-one">
+				<div id="container-form">
+					<form action="./php/mail.php" method="POST" autocomplete="off">
+						<input name="name" placeholder="Ime">
+						<input name="email" type="email" placeholder="E-mail">
+						<textarea name="message" placeholder="Poruka"></textarea>
+						<input id="submit" name="submit" type="submit" value="Pošalji">
+					</form>
+				</div>
+			</div>
+			<div id="container-bot-two">
+				<div id="container-contact">
+					<h3>Kontakt informacije</h3>
+					<ul id="contact-info">
+						<li><i class="material-icons">phone</i>Telefon: 098/908-2099</li>
+						<li><i class="material-icons">email</i>E-mail:&nbsp<a href="mailto:nina.kopic2@gmail.com">nina.kopic2@gmail.com</a></li>
+						<li><i class="material-icons">web</i>Web-stranica:&nbsp<a href="https://voltgryn.github.io/blanje/">https://voltgryn.github.io/blanje</a></li>
+					</ul>
+				</div>
+				<div id="container-address">
+					<h3>Adresa</h3>
+					<ul id="adresa-info">
+						<li>Glavna 20, Blanje,</li>
+						<li>Osječko-Baranjska,</li>
+						<li>Croatia</li>
+					</ul>
+				</div>
+			</div>
+			<div id="container-bot-three">
+				<div id="map">
+				</div>
+			</div>
+			<div id="container-bot-four">
+				<div id="container-hours">
+					<h3>Radno Vrijeme</h3>
+					<ul id="hours-info">
+						<li>Ponedjeljak:&nbsp<span>Ne radimo</span></li>
+						<li>Utorak - Petak:&nbsp<span>08:00</span>&nbsp-&nbsp<span>20:00</span>&nbspsati</li>
+						<li>Subota:&nbsp<span>08:00</span>&nbsp-&nbsp<span>00:00</span>&nbspsati</li>
+						<li>Nedjelja:&nbsp<span>08:00</span>&nbsp-&nbsp<span>20:00</span>&nbspsati</li>
+					</ul>
+				</div>
+				<div id="container-fb">
+					<h3>Ostale informacije</h3>
+					<ul id="facebook-info">
+						<li>Facebook stranica:&nbsp<a href="https://www.facebook.com/Etno-Blanje-1543815449207701/">Etno Blanje</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>© 2016, Sva prava pridržana. <a href="https://voltgryn.github.io/blanje/">Etno Blanje</a>.</p>
+	</div>
+
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="plugins/object-fit-images/dist/ofi.browser.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvAuVMuaHG2NpT_5kbn-9IttHqRjz37p8&callback=initMap">
+  </script>
+	<script src="js/blanje.js"></script>
+
+</body>
+
+</html>
